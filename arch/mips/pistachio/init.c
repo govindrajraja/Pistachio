@@ -84,7 +84,7 @@ void __init plat_mem_setup(void)
 
 #define DEFAULT_CPC_BASE_ADDR 0x1bde0000
 
-phys_t mips_cpc_default_phys_base(void)
+phys_addr_t mips_cpc_default_phys_base(void)
 {
 	return DEFAULT_CPC_BASE_ADDR;
 }
