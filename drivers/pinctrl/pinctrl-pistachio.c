@@ -950,7 +950,7 @@ static const struct pinmux_ops pistachio_pinmux_ops = {
 	.get_functions_count = pistachio_pinmux_get_functions_count,
 	.get_function_name = pistachio_pinmux_get_function_name,
 	.get_function_groups = pistachio_pinmux_get_function_groups,
-	.enable = pistachio_pinmux_enable,
+	.set_mux = pistachio_pinmux_enable,
 };
 
 static int pistachio_pinconf_get(struct pinctrl_dev *pctldev, unsigned pin,
